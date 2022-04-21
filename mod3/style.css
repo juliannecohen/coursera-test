@@ -1,0 +1,73 @@
+.body {
+    font-size: 16px;
+    color:cornsilk;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-nav {
+    background-color:burlywood;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.navbar-toggler-icon:hover {
+    background: transparent;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    margin-top: -15px;
+    font-weight:500;
+    font-family: 'Molle', cursive;
+}
+
+#heading {
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+#nav-list div {
+    background-color: rgba(222, 184, 135, 0.575);
+    font-size: 18px;
+    min-height: 40px;
+}
+
+#nav-list div:hover {
+    background: rgba(245, 222, 179, 0.425);
+}
+
+#nav-list a {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.bb {
+    border-bottom: 1px solid black;
+}
+
+#boxybox {
+    height: 1000px;
+    background-color:rgb(92, 76, 56);
+    color: rgb(255, 243, 220);
+    margin-top: 15px;
+}
+#boxybox h2 {
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
+}
+#boxybox h3 {
+    font-size: 100%;
+}
+/**** Medium ****/
+@media (min-width: 99px) and (max-width: 1199px) {
+
+}
+
+/**** Small ****/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
